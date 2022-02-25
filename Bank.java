@@ -54,7 +54,7 @@ class Bank{
 		System.out.println("1. SBI");
 		System.out.println("2. HDFC");
 		System.out.println("0. EXIT");
-		System.out.println("===================");
+		System.out.println("=====================");
 		System.out.print("Enter your choice: ");
 		c = s.nextInt();
 		System.out.println();
@@ -69,13 +69,13 @@ class Bank{
 		Scanner s = new Scanner(System.in);
 		int c;
 		System.out.println();
-		System.out.println("===================");
+		System.out.println("=====================");
 		System.out.println(bank + " Bank");
 		System.out.println("1. Display Balance.");
 		System.out.println("2. Deposit");
 		System.out.println("3. Withdrawl");
 		System.out.println("0. Exit");
-		System.out.println("===================");
+		System.out.println("=====================");
 		System.out.print("Enter your choice: ");
 		c = s.nextInt();
 		System.out.println();
